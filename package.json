@@ -1,15 +1,25 @@
 {
   "name": "crud-postgresql",
   "version": "1.0.0",
-  "description": "",
+  "description": "Postgres CRUD test",
   "main": "index.js",
   "scripts": {
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "@EddPstr",
+  "license": "MIT",
   "dependencies": {
     "pg": "^8.7.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalohrndz/postgresql-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lalohrndz/postgresql-demo/issues"
+  },
+  "homepage": "https://github.com/lalohrndz/postgresql-demo#readme"
 }
